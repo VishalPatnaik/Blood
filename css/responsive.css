@@ -1,0 +1,138 @@
+
+@media handheld, only screen and (max-width: 768px){
+  
+  #site-wrap{
+    overflow-x: hidden;
+  }
+  .header{
+    min-width: 100%;
+  }
+  .navbar-brand img{
+    width: 320px;
+    height: 95px;
+     padding-top: 10px;
+    padding-left: 5px;
+ 
+  }
+
+ .navbar-toggle{
+    margin-top: 30px;
+  }
+   .navbar-toggle, .icon-bar {
+    border:1px solid orange;
+}
+  .item{
+    background-image: url("../images/site_bg.jpg");
+   
+    height: 637px;
+  }
+
+  #myCarousel .substrate{
+    height: 100%;
+  }
+
+ #myCarousel{
+  height: 100%;
+ }
+  .content{
+    position: relative;
+    bottom: 152px;
+    right: 15px;
+
+}
+
+.carousel-caption {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    bottom: 492px;
+    left: 50px;
+}
+
+.caption2 h2{
+  position: absolute !important;
+    bottom: -85px;
+    right: 39px;
+}
+
+.caption1 h2{
+  position: absolute !important;
+    top: 160px;
+    right: 43px;
+}
+
+.caption3 h2{
+  position: absolute !important;
+  left: 7px !important;
+}
+
+.slide h2{
+  position: relative;
+     left: -33px;
+    right: 26px;
+}
+
+h2{
+  font-size: 20px;
+}
+.header .navbar ul li a{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.carousel-inner > .item > img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: -55px;
+    top: 150px;
+}
+.carousel-indicators{
+  position: absolute;
+    top: 550px;
+}
+
+.carousel-inner > .slide2 > img {
+    position: relative;
+    height: 487px;
+    width: 647px;
+    left: -45px;
+    top: 150px;
+}
+
+  #course-details > .row > .col-lg-3 a p {
+    font-size: 18px !important;
+    padding-top: 17px !important;
+  }
+
+
+}
+
+/*-----------=============0-767px===========---------------------*/
+@media handheld, only screen and (max-width: 767px){
+
+#footer{
+    position: relative !important;
+    top: 17px !important;
+    right: -21px !important;
+  }
+
+  .footer-wrap{
+    margin-bottom: 0px !important;
+  }
+#footer p {
+  width: 100%;
+  position: absolute;
+    left: 66px;
+    top: 5px;
+    font-size: 15px !important;
+}
+
+.Popular > .nomargin {
+    margin-left: 19px !important;
+    font-size: 18px;
+}
+
+}

@@ -1,0 +1,108 @@
+@media handheld, only screen and (max-width: 768px){
+  
+  .site-wrap{
+    overflow-x: hidden;
+  }
+  .header{
+    min-width: 100%;
+  }
+  .navbar-brand img{
+    width: 320px;
+     padding-top: 10px;
+    padding-left: 5px;
+ 
+  }
+
+  .navbar-brand {
+    height: 100%;
+    float: none;
+}
+
+.header .row {
+    margin: 0 auto;
+    width: 100%;
+}
+  .navbar-toggle{
+    margin-top: 30px;
+    margin-right: -6px;
+  }
+   .navbar-toggle, .icon-bar {
+    border:1px solid orange;
+}
+
+.header .navbar ul {
+    margin-top: -13px;
+    background-color: #445461;
+    z-index: 1000;
+    position: absolute;
+    width: 108%;
+    margin-left: -30px !important;
+}
+ 
+
+.header .navbar ul li a{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+}
+
+@media handheld, only screen and (max-width: 479px){
+.featured-content .substrate {
+    width: 700%;
+}
+.featured-content .row{
+padding: 0 42px;
+}
+
+.footer-wrap {
+    position: static !important;
+    }
+
+
+}
+
+/*------------========0-767px====------------*/
+@media handheld, only screen and (max-width: 767px){
+.rownav .col3 {
+    margin-bottom: 3.5em;
+    border-width: 0;
+}
+
+.row .col-md-4 {
+    margin: 0 0 3em 0;
+    width: 100%;
+}
+
+.col-md-4.col-md-8{
+    margin-bottom: 0;
+}
+
+.rownav .col-md-8 {
+    padding: 0;
+    border-width: 0;
+}
+.site-header, .site-footer {
+    text-align: center;
+}
+
+.footer-wrap .row{
+  width: 100%;
+}
+.footer-navigation
+{
+  display: none;
+}
+
+.col-md-4{
+  padding-right: 26px;
+    padding-left: 10px;
+}
+
+.col-md-8{
+  padding-right: 26px !important;
+    padding-left: 26px !important;
+}
+
+
+}

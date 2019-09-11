@@ -1,0 +1,9 @@
+create table bsells
+(
+bgroup varchar(20),
+bunit int,
+cname char(30),
+cmobile char(10),
+rhos varchar(30),
+radd varchar(50)
+);

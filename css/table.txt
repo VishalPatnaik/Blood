@@ -1,0 +1,14 @@
+create table reg
+(
+uname char(50),
+uemail varchar(100),
+ufullname char(100),
+uno char(10),
+uadd varchar(100),
+ucity char(50),
+ustate char(40),
+ucontry char(40) 
+upass varchar(50),
+ucpass varchar(50),
+primary key(uname)
+);

@@ -1,0 +1,640 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+<title>hotel</title>
+<script>
+    
+    var serverCurrentDate = new Date("February 24, 2018 10:08:09");
+    
+    
+    var isMobileUA = Boolean(false);
+    
+
+    var enableOldFlashSaleFlow = 'false' === 'true';
+    var enableTranslation = Boolean(false);
+</script>
+			
+				<link type='text/css' rel='stylesheet' href='1.css' />
+	  			<link type='text/css' rel='stylesheet' href='2.css' />
+	  		
+			
+		
+			<script>
+	(function(_,e,rr,s){_errs=[s];var c=_.onerror;_.onerror=function(){var a=arguments;_errs.push(a);
+	c&&c.apply(this,a)};var b=function(){var c=e.createElement(rr),b=e.getElementsByTagName(rr)[0];
+	c.src="//beacon.errorception.com/"+s+".js";c.async=!0;b.parentNode.insertBefore(c,b)};
+	_.addEventListener?_.addEventListener("load",b,!1):_.attachEvent("onload",b)})
+	(window,document,"script","517928f49c211d255a0001ff");
+</script>
+			<script>
+			    !function(){var e='<div class="appCrashWrapper" style="position:fixed;width:100%;height:100%;left:0;top:0px;bottom:0;background:rgba(255,255,255,0.5);z-index:1000000"> <div class="appCrashModal blockMessage ugly" style="width:250px;margin:200px auto;"> <p>Oops! Something seems to have gone wrong in our application!</p> <p>Please try <a id="AppCrashReload" href="javascript:window.location.reload(true)">reloading</a> or <a href="javascript:void(0);" onclick="_cleartrip.report()">report</a> the problem.</p> </div> </div>',t=["uncaught syntaxerror","unexpected end of input"],n=["libs.min","air.home","air.results.min","hotels.min","hotels.results","bus.home","bus.results"],r={report:function(){var e=window.open("/feedback/","feedback","scrollbars,width=815,height=600");return!1},alert:function(){window.addEventListener("load",function(){var t=document.createElement("DIV");t.innerHTML=e,document.body.appendChild(t)},!1)},libs:function(){if(typeof $=="undefined"||typeof CT=="undefined")throw new Error("CTScriptException: $ and/or CT are undefined")},maps:function(){}};window._cleartrip=r;var i=window.onerror;window.onerror=function(e,r,s){e.indexOf("CTScriptException")>-1&&window._cleartrip.alert(e+=" | HANDLED BY CLEARTRIP SCRIPTCHECKER",r,s);for(var o=0,u=t.length;o<u;o++)if(e.toLowerCase().indexOf(t[o])>-1)for(var a=0,f=n.length;a<f;a++)if(r.indexOf(n[a])>-1){window._cleartrip.alert(e,r,s),e.indexOf("CLEARTRIP SCRIPTCHECKER")==-1&&(e+=" | HANDLED BY CLEARTRIP SCRIPTCHECKER");break}i.apply(window,arguments)}}();window._cleartrip.hotels=function(){},window._cleartrip["hotels.results"]=function(){};
+			</script>
+		<script>
+			
+				var cloudinaryEnabled = true;
+				var cloudinaryCityList =  ['New Delhi', 'Bangalore', 'Chennai', 'Hyderabad', 'Pune', 'Jaipur', 'Kochi', 'Shirdi', 'Pondicherry', 'Gurgaon', 'Kolkata', 'Ahmedabad', 'Goa', 'Mumbai', 'Tirupati', 'Varanasi', 'Coimbatore', 'Trivandrum', 'Agra', 'Mysore'];
+			
+			
+			var ipRedirect = true;
+			var countryCode = 'in';
+			var random_number_one_to_six = "(none)";
+			var flashSaleDeadLine = "1/6/2015,10:0:0";
+			var ccNumber = "";
+			var language = 'en';
+			var enableBannerAutomation=false;
+			var bannerCountryCode=window.countryCode ? window.countryCode.toUpperCase() :"";
+			//var offerVersion = 'v240218';
+			//var homePageOfferVersion = 'v1451305452';
+			var srpPageDomVersion = 'v652';
+			var srpPageIntlVersion = 'v590';
+			var load_currency_converter = true;
+			var internalusers = true;
+			var mixpanelid = '0a226de2b3e76e79238ac2bd0905b2ee';
+			
+				var showTags = true;
+			
+			var htmlVCanvasEnabled = true;
+			
+				var enable360 = true;
+			
+			var mixpanelswitch= true;
+			
+				var enableLiveEngage = true;
+			
+			
+				var intiateAbTest = true;
+			
+			
+			var homePageOfferVersion = 'v1451305452';
+			var homePageOffersJson = '/offermgmt/B2CHotels_'+countryCode+'.js?'+homePageOfferVersion;
+			var homePageBannerVersion = '(none)';
+			var homePageBannersJson = '/bannermgmtFiles/Hotel Home_B2C_'+bannerCountryCode+'.js?'+homePageBannerVersion;
+			//var pageName = 'hotels'
+			
+			
+			//var homePageOffersJson = '//www.cleartrip.com/offermgmt/B2CHotels_'+countryCode+'.js?'+homePageOfferVersion;
+			var hotels_results_min_js_ver = '.v832214';
+			var maps_min_js_ver = '.v829741';
+			
+			var commonHotelTrackers_js_ver = '.v726809';
+			var hotelTrackers_js_ver = '.v371904';
+			
+			var hotelstatic_tmpl_js_ver = '.v833773'; 
+			var commonstatic_tmpl_js_ver = 	'.v828280';
+			var isResultsPage = (window.location.pathname.indexOf("results")!=-1 || window.location.hash.indexOf("results")!=-1)
+			var loadSegmentIOJS = false;
+			var openFirstHotelQuickLook = false;
+			var enableBgSearch = 'true';
+			
+			
+				var enableLocalTab = false;
+			
+			
+			!function(){window.preCT={},preCT.id=function(e){return document.getElementById(e)},preCT.name=function(e){return document.getElementsByName(e)},preCT.addEvent=function(e,t,n){e.attachEvent?(e["e"+t+n]=n,e[t+n]=function(){e["e"+t+n](window.event)},e.attachEvent("on"+t,e[t+n])):e.addEventListener(t,n,!1)},preCT.removeEvent=function(e,t,n){e.detachEvent?(e.detachEvent("on"+t,e[t+n]),e[t+n]=null):e.removeEventListener(t,n,!1)},preCT.disableFormSubmit=function(e){typeof e=="undefined"?preCT.id("SearchForm").onsubmit=function(e){return!1}:preCT.id("SearchForm").onsubmit=function(e){return!0}},preCT.showDateErrorMsg=function(e){var t=e.parentNode,n=document.createElement("SMALL");n.id=e.id+"Error",n.className="hint ugly errorLabel",n.appendChild(document.createTextNode("You missed this. Correct format is dd/mm/yyyy")),t.appendChild(n)},preCT.dateHandler=function(){var e=new Date(this.value);if(e.length<1)return!0;preCT.id(this.id+"Error")&&this.parentNode.removeChild(preCT.id(this.id+"Error"));if(isNaN(e.getTime()))try{var t=this.value.split("/");t.length===3&&1<=parseInt(t[0])<=31&&1<=parseInt(t[1])<=12?preCT.disableFormSubmit(!1):(t=this.value.split(",")).length===3?preCT.disableFormSubmit(!1):(preCT.showDateErrorMsg(this),preCT.disableFormSubmit())}catch(n){preCT.showDateErrorMsg(this),preCT.disableFormSubmit()}else{var t=this.value.split("/");parseInt(t[1])>12&&(preCT.showDateErrorMsg(this),preCT.disableFormSubmit())}},preCT.cityHandler=function(){preCT.id("City").value=this.value},preCT.submitHandler=function(){var e=["Tags"],t=!0;for(var n=0,r=e.length;n<r;n++){var i=document.getElementById(e[n]);i.value.length<3&&(t=!1)}if(!t)return!1},preCT.destroy=function(){if("preCT"in window){$("#CheckInDate, #CheckOutDate").each(function(){preCT.removeEvent(this,"blur",preCT.dateHandler)}),$("#Tags").each(function(){preCT.removeEvent(this,"blur",preCT.cityHandler)}),$("#SearchForm").removeAttr("onsubmit");try{delete window.preCT}catch(e){window.preCT=null}}}}();
+		</script>
+		
+		
+		<script>
+		
+			var airBnb = false;
+		
+		
+		
+			var propGuidedNavEnabled = false;
+		
+		
+		
+			var hotelTwoCol = true;
+			var twoCol = true;
+	  	
+		
+		
+			//allowModalWindowForB2B = true
+			//Will open a new modal
+			var hotelModalV2 = true;
+		
+		
+		//Allow old select room button 
+		var isOldSelectRoomButton = '(none)' == "true";
+		
+		var enableHotelModalV2 = true;
+		
+		var overrideHotelModalV2Ab = 'a';
+	  	
+		
+			var enableOpaque = true;
+		
+		
+		
+			var hotelTwoColLayoutTest = false;
+			var hotelTwoColVarient = 'b';
+		
+		
+	  	
+			var propGuidedNavForCTUsers = false;
+		
+		var taxAbTest = 'a'
+		
+		var tax_exclusive_ab_test = 'b';
+		
+		if(window.countryCode != "in"){
+			var taxAbTest_A = 'a';
+		}else{
+			var taxAbTest_A = 'b';
+		}
+		if(window.countryCode == 'in'){
+			var selectRoomAbTest = 'b'
+		}else{
+			var selectRoomAbTest = 'a'
+		}
+		var tax_exclusive_ab_test_A = 'a';
+		
+		var taxExclusiveCities = ['Mumbai']
+		
+		var taxExclusiveCities_A = ['Bangalore']
+		
+		
+			var showPromoFlashSale = true;
+			var promoFlashSaleString = 'CTWOW';
+			var promoFlashSaleLink = 'http://www.cleartrip.com/offers/india/wow-weekend';
+		
+		
+		var hotelBaseLink = '//ui.cltpstatic.com'
+
+		var staticImgDomain = '//static.cltpstatic.com'
+		
+		var staticImgDomainProp = {'cities':['']}
+		
+		
+			var analyticsHost = '//analytics.cltpstatic.com';
+		
+		
+		var explorerAnalyticsSwitch='true';
+		
+		var affiliateutmExpiryDays ='1';
+		var lastStepAttribution =true;
+		
+		var hotelListScrollCount = '10'
+		
+		var imgPreLoad = '1'
+		
+		var budgetBadgeFilter = {'minBudget':'(none)','enable':'true','defaultVal':'b','cities':['Thrissur','Guruvayoor','Digha','Guwahati','Shimla','Allahabad','Bangalore']}
+		
+		
+		var showLocationHotels = 'true'
+			
+		var showLocationHotelsForCities = '35485, 33070, 33968, 33752, 35515,32550'
+
+		var showTopLocationsInSrp='false'
+		//For Chunky Filters
+		var showChunkyFilters='true'
+
+		var abTestTimeOut = '3000'
+				
+		var logUiEvtTimeOut = '10000'
+		
+		var overrideSelectRoomAbTest = 'a';
+		
+		
+			var hotelContentUrl = '/hotels/jsonservice/hotel-content';
+			var getawayContentUrl = '/hotels/jsonservice/getaway/hotel-content';
+		
+
+		var smartHomePage = true;
+
+		
+            var cleverTapEnabled = true;
+            var cleverTapAccId = 'W8R-KK8-W74Z';
+        
+
+        var enableRecentView = 'true' === 'true';
+		var enableRecentSearch = true;
+		
+		var enableOldFlashSaleFlow = 'false' === 'true';
+
+		var enableNewStpFlow =  'true' === 'true';
+		var enableCreativePricing = 'true' === 'true';
+		var isShortListEnabled	= 'true' === 'true' && '' != 'B2B' && '(none)' != 'true';
+		</script>
+		
+		
+				
+<link rel="manifest" href="/ct-manifest.json">
+
+<script> var clevertapChromePushNotification = true</script>
+<script>
+            (function(h,o,t,j,a,r)
+            { h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:390809,hjsv:5};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');
+                r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);
+            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+	</head>
+	
+	    <body class="hotel home in  (none)">
+	
+		<svg xmlns="http://www.w3.org/2000/svg" class="hide"><symbol id="360" viewBox="0 0 120 58"><title>360</title><g fill-rule="evenodd"><path d="M47.286 22.398c0-3.308-1.922-6.162-5.364-7.069l.09-.136c2.771-.996 4.648-3.443 4.648-6.705 0-4.35-3.173-7.476-9.03-7.476-2.592 0-5.319.544-7.24 1.36l.58 5.708c1.476-.725 3.085-1.178 4.739-1.178 2.637 0 3.755 1.36 3.755 3.081 0 2.039-1.833 4.123-8.047 3.942v5.528c6.884-.997 8.494 1.178 8.494 3.352 0 2.13-1.967 3.806-5.141 3.806-1.565 0-2.906-.181-4.157-.634l-.537 5.98c1.252.408 2.95.635 4.828.635 7.465 0 12.382-3.987 12.382-10.194zm23.401-.997c0-5.301-3.531-9.062-9.342-9.062-2.593 0-4.515.77-5.99 2.039h-.045c.134-.498.224-.952.358-1.314 1.296-4.123 4.38-6.026 8.18-6.026 1.475 0 2.637.136 4.023.453V1.329c-.983-.181-2.324-.226-4.023-.226-8.94 0-15.78 6.252-15.78 18.304 0 9.017 4.47 13.276 10.773 13.276 6.974 0 11.846-4.305 11.846-11.282zm-7.197.951c0 2.447-1.385 4.35-4.157 4.35-2.503 0-3.844-1.858-3.844-4.576 0-2.22 1.52-4.033 4.023-4.033 2.637 0 3.978 1.586 3.978 4.26zm31.842-5.89c0-8.88-3.04-15.36-11.711-15.36-6.392 0-12.204 5.211-12.204 15.904 0 11.78 5.41 15.54 11.578 15.54 6.303 0 12.337-5.164 12.337-16.084zm-7.33.136c0 7.34-2.28 10.059-4.739 10.059-3.352 0-4.56-3.308-4.56-10.104 0-7.114 2.012-9.696 4.873-9.696 3.04 0 4.425 2.718 4.425 9.741z"/><path d="M114.456 30.252c0 6.948-18.306 12.72-42.38 13.869l.598 5.293c26.687-1.352 47.022-8.36 47.022-16.8 0-5.447-8.466-10.297-21.642-13.415v.726c10.088 2.571 16.402 6.246 16.402 10.327zM48.136 44.144C23.809 43.054 5.24 37.25 5.24 30.252c0-4.829 8.84-9.089 22.313-11.625v-.653C11.052 20.947 0 26.39 0 32.614c0 8.557 20.903 15.642 48.136 16.853v8.457l16.303-11.161L48.136 35.6v8.543zM101.495 3.696c0-2.268-1.504-3.247-3.29-3.247-1.846 0-3.52 1.338-3.52 3.42 0 1.996 1.185 3.272 3.276 3.272 1.87 0 3.534-1.326 3.534-3.445zm-2.018.099c0 1.165-.672 1.648-1.418 1.648-.868 0-1.357-.657-1.357-1.673 0-1.078.648-1.636 1.381-1.636.82 0 1.394.57 1.394 1.66z"/></g></symbol></svg>
+		
+			<!-- BoldChat Visitor Monitor HTML v5.00 (Website=My Website,Ruleset=My Invite Ruleset,Floating Chat=- None - -->
+			<noscript>
+				<a href="http://www.boldchat.com" title="Live Support" target="_blank"><img alt="Live Support" src="https://vms.boldchat.com/aid/172076787582913969/bc.vmi?&amp;wdid=171271469539519529" border="0" width="1" height="1" /></a>
+			</noscript>
+			<!-- /BoldChat Visitor Monitor HTML v5.00 -->
+	
+		<div class="glassShield"></div>
+		<div id="SrpOverlayWarning" class="srpOverlayWarning" style="display:none"></div>
+		<div id="SrpOverlay" class="srpOverlay" style="display:none"></div>
+		<div class="element warningMarkers" style="display: none">&nbsp;</div>
+
+
+		
+		
+		
+			<section id="Home" class="container" >
+		
+		
+    <section class="container">
+        <div class="row content">
+            <aside class="colZero col5 left">
+                
+					
+
+
+
+    
+    
+
+
+ <nav class="hasProductIcons">
+     <ul class="navGroup productNav withArrows">
+        
+		         <li class="home ">
+	         		<a href="pro.html" title="Find hotels in destinations around the world" onclick="if(window.CT){CT.utils.helperFunctions.trackMixpanelEvent('G_Menu_Bookmarks',{'menuBookmarks':'Hotels','pageURL':window.location.pathname});}"><span class="productIcon hotels"></span>Profile</a>
+                
+					
+						<a style="display:none;" id='flashSaleEl-hotel' class="flashSaleTag bolt" href="javascript:void(0);" target="_blank"></a>
+					
+                
+	         </li>
+    
+		
+         <li class="flightApp">
+         	<a href="flight1.html" title="Find flights from and to international destinations around the world" onclick="if(window.CT){CT.utils.helperFunctions.trackMixpanelEvent('G_Menu_Bookmarks',{'menuBookmarks':'flights','pageURL':window.location.pathname});}"><span class="productIcon flights"></span>flights</a>
+                
+					
+						<a style="display:none;" id='flashSaleEl-air' class="flashSaleTag bolt" href="javascript:void(0);" target="_blank"></a>
+					
+                
+         </li>
+        
+        
+	         <li class="hotelApp ">
+	         		<a href="hotel1.html" title="Find hotels in destinations around the world" onclick="if(window.CT){CT.utils.helperFunctions.trackMixpanelEvent('G_Menu_Bookmarks',{'menuBookmarks':'Hotels','pageURL':window.location.pathname});}"><span class="productIcon hotels"></span>Hotels</a>
+                
+					
+						<a style="display:none;" id='flashSaleEl-hotel' class="flashSaleTag bolt" href="javascript:void(0);" target="_blank"></a>
+					
+                
+	         </li>
+        
+     </ul>
+    
+ </nav>
+
+				
+            </aside>
+ 
+            
+            
+            
+            <div class="colZero col13 center viewController">
+            	 
+
+				<div class="searchForm">
+					
+						
+					
+					
+
+                	<h1>Search for hotels</h1>
+                	<h2 class="subTitle"  >Over 600,000 hotels around the world</h2>
+                	<div id="homeErrorMessage" class="lineMessage ugly icon" style="display:none" >Please fix everything in RED and try your search again</div>
+                	<form id="SearchForm" errorblkid="homeErrorMessage" action="/hotels/results">
+
+
+	                    <!-- from and where  -->
+						
+						<nav class="row fieldRow tripType" style="display:none">
+								<!-- input fields have been added back in the label -->
+							<ul>
+				                <li class="col col5">
+			   	             		<label title="Hotels" for="withinCity">
+			   	             			<input type="radio" tabindex="1" class="tripType" value="withinCity" id="withinCity" name="trip_type"> 
+			   	             			<strong>Hotels</strong>
+			   	             		</label>
+			                	</li>	
+								
+				      	         <li class="col col9">
+				         	      	<label title="Weekend Getaways" for="outsideCity">
+			    	     	      		<input type="radio" tabindex="2" class="tripType" value="outsideCity" id="outsideCity" name="trip_type"> 
+			        	 	      		<strong>Weekend Getaways</strong>
+			        	 	      		<br>
+			        	 	      		<small>from your City</small>			        	 	      		
+			        	 	      	</label>
+								</li>
+								
+			                </ul>
+		                </nav>
+												
+						
+						
+	                    <section  class="row fieldRow">
+			                <div class="col col24">
+			                    <dl class="vertical">
+			                        <dt><label id="searchFieldLabel" for="where" title="Where do you want to go"><strong>Where</strong></label></dt>
+			                        <dd class="ui-widget">
+			                            <span class="span span24 clearField">
+			                            	<select type="text" title="Where do you want to go" name="from"  class="keyValue span span24 required" data-close="true" etitle="City" autocomplete="off" tabindex="2" />
+			                            	
+			                            		 
+	 <option value="0">Enter Locality</option>
+		<option data-ui='{"ty":"g","k":"32550","s":"Karnataka","c":"IN","cy":"Bangalore","sc":"Karnataka, India","z":"0","des":"undefined, Bangalore Karnataka, India","label":"undefined, Bangalore Karnataka, India","value":"32550"}' value="Bangalore">Bangalore</option>
+		<option data-ui='{"ty":"g","k":"35485","s":"Delhi","c":"IN","cy":"New Delhi","cya":"Delhi","sc":"Delhi, India","z":"0","des":"undefined, Delhi Delhi, India","label":"undefined, Delhi Delhi, India","value":"35485"}' value="New Delhi">New Delhi</option>
+		<option data-ui='{"ty":"g","k":"33719","s":"Maharashtra","c":"IN","cy":"Mumbai","sc":"Maharashtra, India","z":"0","des":"undefined, Mumbai Maharashtra, India","label":"undefined, Mumbai Maharashtra, India","value":"33719"}' value="Mumbai">Mumbai</option>
+		<option data-ui='{"ty":"g","k":"33070","s":"Tamil Nadu","c":"IN","cy":"Chennai","sc":"Tamil Nadu, India","z":"0","category":"Weekend gateways","des":"Weekend gateways from Chennai","label":"Weekend gateways from Chennai","value":"33070"}' value="Chennai">Chennai</option>
+		<option data-ui='{"ty":"g","k":"33013","s":"Chandigarh","c":"IN","cy":"Chandigarh","sc":"Chandigarh, India","z":"0","category":"Weekend gateways","des":"Weekend gateways from Chandigarh","label":"Weekend gateways from Chandigarh","value":"33013"}' value="Chandigarh">Chandigarh</option>
+		<option data-ui='{"ty":"g","k":"34600","s":"West Bengal","c":"IN","cy":"Kolkata","sc":"West Bengal, India","z":"0","category":"Weekend gateways","des":"undefined, Kolkata West Bengal, India","label":"undefined, Kolkata West Bengal, India","value":"34600"}' value="Kolkata">Kolkata</option>
+		<option data-ui='{"ty":"g","k":"33897","s":"Andhra Pradesh","c":"IN","cy":"Hyderabad","sc":"Andhra Pradesh, India","z":"0","category":"Weekend gateways","des":"undefined, Hyderabad Andhra Pradesh, India","label":"undefined, Hyderabad Andhra Pradesh, India","value":"33897"}' value="Hyderabad">Hyderabad</option>
+		<option data-ui='{"ty":"g","k":"35943","s":"Maharashtra","c":"IN","cy":"Pune","sc":"Maharashtra, India","z":"0","category":"Weekend gateways","des":"undefined, Pune Maharashtra, India","label":"undefined, Pune Maharashtra, India","value":"35943"}' value="Pune">Pune</option>
+		<option data-ui='{"ty":"g","k":"34571","s":"Kerala","c":"IN","cy":"Kochi","sc":"Kerala, India","z":"0","category":"Weekend gateways","des":"undefined, Kochi Kerala, India","label":"undefined, Kochi Kerala, India","value":"34571"}' value="Kochi">Kochi</option>
+	</optgroup>	
+	
+	
+
+											</select>
+			                            	
+			                            	<input type="hidden" id="City" name="city" value="">
+											<input type="hidden" id="State" name="state" value="">
+											<input type="hidden" id="Country" name="country" value="IN">
+											<input type="hidden" id="Area" name="area" value="">
+											<input type="hidden" id="Poi" name="poi" value="">
+											<input type="hidden" id="HotelId" name="hotelId" value="">
+											<input type="hidden" id="HotelName" name="hotelName" value="">
+											<input id="DestCode" type="hidden" name="dest_code" value="">
+			                            </span>
+			                        </dd>
+			                    </dl>
+			                </div>
+		                </section>
+
+                		<!-- onward and return dates in a row -->
+
+                    	<section class="row fieldRow searchBox"> <!-- searchBox using it in javascript -->
+			                <div class="col col8">
+			                    <dl class="vertical">
+			                        <dt><label for="where" title="Check-in date">Check-in</label></dt>
+			                        <dd>
+			                            <div class="span span20 datePicker">
+			                                <input type="text" name="chk_in" title="Check-in date" data-customevent="true" data-warningvalidator="true" readonly data-warncallback="ctWarnFunc.totalDur" data-datepicker="click" autocomplete="off"  autocorrect="off"  data-number-of-months= "2" data-date-format = "D, d M, yy" data-before-show-day="highlightDays"  data-on-select ='fromHandler' data-button-image-only ="true" data-min-date ="0" data-max-date="+1Y" data-next-date-offset="1#CheckOutDate#HotelDuration" class="checkin_date keyValue span span24" title="Check in date" id="CheckInDate" size="10" placeholder="Pick a date" etitle="Check in date" tabindex="3" />
+			                                <i class="calendarIcon datePicker"></i>
+							               <input type="hidden" class="dateField"  id="FromDate" />
+			                            </div>
+	                            	</dd>
+			                    </dl>
+			                </div>
+                			<div class="col col8">
+                				<dl class="vertical">
+                        			<dt><label for="where" title="Check-out date">Check-out</label></dt>
+                        			<dd>
+			                            <div class="span span20 datePicker">
+	                        				<input name="chk_out" type="text" title="Check-out date" data-customevent="true" data-warningvalidator="true" readonly data-warncallback="ctWarnFunc.stayWar" data-datepicker="click" autocomplete="off"  autocorrect="off"  data-number-of-months="2" data-date-format = "D, d M, yy"  data-before-show-day="highlightDays" data-on-select ='toHandler' data-button-image-only ="true" data-min-date ="0" data-max-date="+1Y" class="checkout_date keyValue span span24 date" name="chk_out" title="Check out date" id="CheckOutDate" size="10" placeholder="Pick a date" etitle="Check out date" tabindex="4" />
+	                        				<i class="calendarIcon datePicker"></i>
+							                <input type="hidden" class="dateField" id="ToDate" />
+						               </div>
+                            			<input type="hidden" rnd_one="O" />
+                            		</dd>
+                    			</dl>
+                    		</div>
+                			<div class="col col8 indicator"><span id="HotelDuration" title="Number of nights you're going to stay"></span> </div>
+                		</section>
+
+
+                 		<!-- Select travellers -->
+                 	    <section class="row fieldRow">
+						<div class="col col16">
+							<dl class="vertical">
+								<dt>                 		
+									<label><strong>Travellers</strong></label>
+								</dt>
+								<dd>
+									<select class="span span22" id="travellersOnhome" style="display:block;">
+										<option value="1">1 room, 1 adult</option>
+										<option value="2" selected="true">1 room, 2 adults</option>
+										<option value="4">2 rooms, 4 adults</option>
+										<option value="MoreTravellers">More travellers...</option>
+									</select>                 	 					
+								</dd>
+							</dl>
+						</div>
+					   </section>
+		                 <nav class="roomWidget" data-roompaxwidget="true" data-template="RoomPaxWidgetTpl" style="display:none">
+		                    <ul>
+			                    <li class="rooms">
+		                            <section class="row">
+										<div class="col col4">
+											<dl class="vertical roomNo">
+											    <dt><label title="Number of rooms"><strong>Rooms</strong></label></dt>
+											    <dd><select class="span span20 selectRoom" title="Number of rooms" tabindex="5"><option value="1" selected="true">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></dd>
+											</dl>
+										</div>
+										<div class="col col4">
+											<dl class="vertical">
+												<dt>&nbsp;</dt>
+												<dd style="text-align:right;">
+												    <span style="margin-right:5px;display:none" id="Room1">Room 1:</span>
+												</dd>
+											</dl>
+										</div>
+										<div class="col col4">
+		                                    <dl class="vertical">
+
+		                                        <dt><label for="Adults" title="Number of adults"><strong>Adults</strong></label></dt>
+
+		                                        <dd>
+		                                            <select size="1" name="adults1" id="Adult_1" title="Number of adults" class="span span20 renderAdult alterAdult" tabindex="6"><option value="1">1</option><option value="2" selected="true">2</option><option value="3">3</option><option value="4">4</option>
+		                                            </select>
+                                                <small class="hint">12+ yrs</small>
+		                                      </dd>
+		                                    </dl>
+		                                 </div>
+		                                 <div class="col col4">
+		                                    <dl class="vertical">
+		                                        <dt><label for="Childrens" title="Number of children" >Children</label>
+		                                        </dt>
+		                                        <dd>
+		                                           <select size="1" name="children1" id="Childs_1" title="Number of children" class="span span20 alterChild" tabindex="7"><option value="0" selected="true">0</option><option value="1">1</option><option value="2">2</option>
+		                                           </select>
+                                               <small class="hint">0-11 yrs</small>
+		                                        </dd>
+		                                    </dl>
+		                                 </div>
+		                                 <div class="col col8" >
+		                                   <div id="Age_1" class="row"  style="display:none">
+		                                   		<div class="row"></div>
+		                                   </div>
+		                                 </div>
+                                 	</section>
+                         		</li>
+		                    </ul>
+
+		                </nav>
+		                 <nav style="display:none">
+		                    <ul class="airbnbRoomWidget">
+			                    <li class="rooms">
+		                            <section class="row">
+										<div class="col col4">
+		                                    <dl class="vertical">
+		                                        <dt><label title="Number of Travellers" for="Travellers"><strong>Travellers</strong></label></dt>
+
+		                                        <dd>
+		                                            <select class="span span20 renderAdult alterAdult" title="Number of adults" id="AirBnbAdult_1" name="adults1" size="1"><option selected="selected" value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option>
+		                                            </select>
+                                                <small class="hint">&nbsp;</small>
+		                                      </dd>
+		                                    </dl>
+		                                 </div>
+                                 	</section>
+                         		</li>
+		                    </ul>
+		                </nav>
+                		<input type="hidden" id="NoOfRoom" name="num_rooms" value="1" />
+                		<div class="searchBtnContainer tRight">
+                			 <input type="submit" id="SearchHotelsButton" class="booking "   value="Search hotels" />
+
+                		</div>
+					</form>
+					
+				</div>
+				
+               
+            </div>
+            
+            
+
+<div class="mapBlock mapCanvas" id="map_canvas" style="display:none;">
+</div>
+
+
+
+				
+
+			</aside>
+			
+			
+		</section>
+	</section>
+</div>
+
+
+		</section>
+		
+		
+		
+		
+			
+			
+				
+				
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+<section class="container rewardsUpsellBannerHome" id="homeUpsellBanner" style="display: none">
+	<div class="row content">
+		<div class="rewardsUpsellWrapperHome upsellMin980">
+		<div class="rewardsBannerImage"><img src="/images/ui/rewards_logo.png"/></div>
+		<div class="upsellTextContainer">
+			<h4>Keep booking to get free travel and stay.
+            <small>No forms. No registrations. No sweat. <a href="/rewards" target="_blank">Know more</a></small></h4>	
+		</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+			
+			
+		
+			
+		
+		<div class="row addOnFooter" style="margin-top:0">
+		
+			<nav class="col col24">
+				
+<style>.flightHotelSRPUpsells img {width:732px !important;height:108px !important} </style>
+<li class="listUnit flightHotelSRPUpsells baseContent" data-flight-type="dom" id="srpUpsellBanner" style="display: none">
+    <i class="zigZagTop"></i>
+    <section class="container rewardsUpsellBanner">
+        <a href="/rewards" target="_blank" class="block tCenter">
+            <img src="rewards_srp_banner.jpg" title="">
+        </a>
+    </section>
+    <span class="zigZagBottom"></span>
+</li>
+
+
+<li class="listUnit flightHotelSRPUpsells baseContent" id="srpUpsellBanner" style="display: none">
+    <i class="zigZagTop"></i>
+    <section class="container rewardsUpsellBanner pricelockUpsellBanner">
+        <div class="row content">
+            <div class="rewardsUpsellWrapper upsellMin980">
+                <div class="rewardsBannerImage"><img src="pricelock-black.png"></div>
+                <div class="upsellTextContainer">
+                    <h4>Lock now. Book later at same fare.
+                    <small>Price lock today. Pay only when your plan is confirmed. <a href="/pricelock" target="_blank" class="priceLockMrkLinks" data-location="flights_srp" onclick="CT.utils.helperFunctions.trackGAEvent('Cannibalization', 'Hotels', 'IN-EN-DES-B2C-ALL-HTL-SRP');">Know more</a></small>        
+                </h4></div>
+            </div>
+        </div>
+    </section>
+    <span class="zigZagBottom"></span>
+</li>
+</nav>
+</div>
+	
+    <script defer="defer" type="text/javascript" src="1.js"></script>
+    <script defer="defer" type="text/javascript" src="2.js"></script>
+    <script defer="defer" type="text/javascript" src="3.js"></script>
+
+		
+		
+		
+		
+        
+	
+	</body>
+
+</html>

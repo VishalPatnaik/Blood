@@ -1,0 +1,80 @@
+
+@media handheld, only screen and (max-width: 768px){
+  
+  body{
+    overflow-x: hidden;
+  }
+  .header{
+    min-width: 100%;
+  }
+  .navbar-brand img{
+    width: 320px;
+    height: 95px;
+     padding-top: 10px;
+    padding-left: 5px;
+ 
+  }
+  .navbar-toggle{
+    margin-top: 30px;
+  }
+   .navbar-toggle, .icon-bar {
+    border:1px solid orange;
+}
+  .item{
+    background-image: url("../images/site_bg3.jpg");
+   
+    height: 637px;
+  }
+
+  #myCarousel .substrate{
+    height: 637px;
+  }
+
+ #myCarousel{
+  height: 637px;
+ }
+  .content{
+    position: relative;
+    bottom: 152px;
+    right: 15px;
+
+}
+
+.carousel-caption {
+    z-index: 10;
+    width: 370px;
+    height: 150px;
+    text-align: left;
+    position: relative;
+    bottom: 350px;
+    left: 25px;
+}
+h2{
+  font-size: 26px;
+}
+.header .navbar ul li a{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.carousel-inner > .item > img {
+    position: relative;
+    height: 487px;
+    width: 647px;
+    left: -55px;
+    top: 150px;
+}
+.carousel-indicators{
+  position: absolute;
+    top: 550px;
+}
+
+.carousel-inner > .slide2 > img {
+    position: relative;
+    height: 487px;
+    width: 647px;
+    left: -45px;
+    top: 150px;
+}
+
+}

@@ -1,0 +1,155 @@
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+/*---------------=====================bodystyles===================----------------*/
+    	body{
+    		height: 100%;
+    		font-family: Open Sans, Arial, Helvetica, sans-serif;
+    		overflow-x: hidden;
+            padding: 0px;
+            margin: 0px;
+            color: #444;
+            letter-spacing: 0;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            line-height: 1.3em;
+    	}
+
+        div{
+            margin: 0;
+            padding:0;
+            direction: ltr;
+            display: block;
+        }
+/*-------------===========header==============------------------*/
+      .header{
+        background-color: #8B0000;
+        height: 135px;
+        border-bottom: 1px solid grey;
+      }
+
+      .navbar-brand img{
+        width: 349px;
+        height: 100px;
+      }
+
+      .header{
+    height: 130px;
+    background-color: #8B0000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}     
+.header .navbar ul{
+    margin-top:40px;
+    background-color:#8B0000;   
+z-index: 990;
+position: relative;
+}
+.header .navbar ul li a{
+    color:#fff;
+    padding: 5px 15px;
+    font-family: cursive;
+}
+.header .navbar ul li a:hover{
+    background: none;
+    color: #fff;
+}
+.header .navbar ul li.active{
+    background-color: black;
+}
+
+.icon{
+    background-color: #8B0000;
+    border: 1px solid grey;
+    border-radius: 1px solid grey;
+}
+
+
+
+/*---------------=============slideshow------------===============*/
+
+.carousel-caption {
+  z-index: 10;
+
+    width: 505px;
+    height: 150px;
+    text-align: left;
+    
+
+}
+
+
+.item{
+
+    background-image: url("../images/site_bg2.jpg");
+    background-size: 1654px;
+    height: 500px;
+
+}
+
+#myCarousel{
+    position: relative;bottom: 0px;
+    height: 485px;
+}
+
+.page-header, .container{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.content{
+    position: relative;
+    bottom: 152px;
+    right: 230px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    font-weight:normal;
+    font-style:normal;
+    font-family:Droid Serif;
+    line-height:1.5em;
+}
+
+
+.carousel-inner > .item  > img
+{
+    position: relative;
+    left: 535px;
+    height: 487px;
+    width: 647px;
+    top: 13px;
+}
+
+.carousel-inner > .slide2 > img
+{
+    position: relative;
+    left: 580px;
+}
+
+.carousel-inner > .slide3 > img
+{
+    position: relative;
+    left: 580px;
+}
+
+.carousel-inner > .slide4 > img
+{
+    position: relative;
+    left: 580px;
+}
+/*---------------=============End Slide Show------------===============*/

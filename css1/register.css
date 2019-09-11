@@ -1,0 +1,225 @@
+/*--------------------------- Header --------------------------*/
+
+
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+
+
+      body{
+        height: 100%;
+        position: relative;
+        bottom: 40px;
+        font-family: inherit;
+              }
+      
+      .page-header{
+        height: 135px;
+        background-color: #4b5b67;
+        border-bottom: 1px solid grey;
+        
+        
+      }
+
+      .image{
+        padding-top:14px;
+        padding-left:68px;
+        float: left;
+        width: 700px;
+      }
+    
+      .HorizantalNav li{
+        list-style-type: none;
+        display: inline;
+        padding-right: 0px;
+      }
+      
+      
+        
+    
+
+      .HorizantalNav li a:hover{
+        color: #fff;
+
+      }
+      
+        .header-navigation div > ul > li.Gallery > a{
+       -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+     box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+    }
+
+    .header-navigation div > ul > li.Gallery > a {
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        background: url(../images/black_20_bg.png);
+    }
+      
+
+      .header-navigation{
+            position: relative;
+    bottom: 63px;
+    left: 810px;
+    width: 420px;
+        
+        
+      }
+      .header-navigation ul:after {
+  display:table;
+  clear:left;
+  content:" ";
+}
+
+.header-navigation ul {
+  margin:0.5em 0 0 0;
+  padding:0;
+  list-style:none;
+}
+
+.header-navigation ul li {
+  position:relative;
+  margin:0;
+  float:left;
+  padding-bottom:0.5em;
+
+}
+
+.HorizantalNav li a{
+  font-family: Droid Serif;
+  font-weight: 600;
+  font-size:14px; 
+}
+
+.header-navigation ul li a {
+  display:block;  
+  color:#f0f0f0;
+  white-space:nowrap;
+  text-decoration: none;
+  padding:0 12px;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.15);
+  
+  
+  line-height:2.2em;
+  
+}
+
+
+.header-navigation li.hover > a,
+.header-navigation a:hover {
+  color:#fff;
+}
+
+
+/*--------------------------- Content --------------------------*/
+
+.item{
+
+  background-image: url(images/site_bg.jpg) !important;
+  background-size: 1300px;
+  height: 80px;
+  position: relative;
+  bottom: 20px;
+  
+}
+
+.item h1{
+  color: #fff;
+  position: relative;
+  right: 270px;
+  top: 21px;
+  font-size: 2em;
+ font-family: Droid Serif;
+ font-weight: normal;
+ font-style: normal;
+}
+
+/*---------------------------------- Images ---------------------------------*/
+
+.gallery-icon,
+.wp-caption,
+.bordered-image {
+  position:relative;
+  overflow:hidden;
+  padding:3px;
+  max-width:100%;
+  border:1px solid #e1e1e1;
+  background:#fff;
+}
+
+.gallery-icon img,
+.wp-caption img,
+.bordered-image img {
+  display:block;
+  width:100%;
+  height:auto;
+  border-width:0!important;
+}
+
+.gallery-item,
+.wp-caption {
+  position:relative;
+  margin-bottom:1em;
+}
+
+.bordered-image.thick-border {
+  padding:5px;
+}
+
+.bordered-image.inner-image + p {
+  margin-top:2em;
+}
+
+.gallery-item .gallery-caption,
+.wp-caption .wp-caption-text,
+.bordered-image .caption {
+  position:absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding:1em 15px;
+  background:url(images/bgs/white_80_bg.png);
+}
+
+.gallery-item .gallery-caption {
+  right:13px;
+  bottom:3px;
+  left:3px;
+}
+
+.gallery-item .gallery-icon {
+  margin-right:10px;
+}
+
+
+/*------------============footer============------------*/
+
+.footer{
+  position: relative;
+  top: 243px !important;
+}
+
+.nav-bar ul li {
+  text-decoration: none;
+
+}
+
+.nav-bar li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-bar li a{
+  text-decoration: none;
+  padding-left:5px;
+  color: #fff;
+  font-family: Droid Serif;
+}

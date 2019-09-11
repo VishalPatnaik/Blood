@@ -1,0 +1,15 @@
+create table adminreg
+(
+uname char(50),
+uemail varchar(50),
+ufullname char(50),
+ubg varchar(20),
+uno char(10),
+uadd varchar(100),
+uadhaar char(12),
+ustate char(40),
+ucountry char(40), 
+upass varchar(50),
+ucpass varchar(50),
+primary key(uadhaar,ufullname)
+);

@@ -1,0 +1,9 @@
+create table donar
+(
+dname char(30),
+demail varchar(30),
+dmobile char(10),
+image blob,
+dfaddr varchar(50),
+dbg varchar(20)
+);

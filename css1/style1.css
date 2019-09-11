@@ -1,0 +1,32 @@
+
+.thumbnail{
+	height: 249px;
+	width: 249px;
+}
+
+.footer{
+	position: relative;
+	top: 40px;
+}
+
+.nav-bar ul li {
+	text-decoration: none;
+
+}
+
+.nav-bar li {
+	list-style-type: none;
+	display: inline;
+}
+
+.nav-bar li a{
+	text-decoration: none;
+	padding-left:5px;
+	color: #fff;
+}
+
+.col-sm-6 p:hover{
+	color: #8be5fc;
+}
+
+

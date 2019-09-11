@@ -1,0 +1,185 @@
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+/*---------------=====================bodystyles===================----------------*/
+    	body{
+    		height: 100%;
+    		font-family: Open Sans, Arial, Helvetica, sans-serif;
+    		overflow-x: hidden;
+            padding: 0px;
+            margin: 0px;
+            color: #444;
+            letter-spacing: 0;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 13px;
+            line-height: 1.3em;
+    	}
+
+        div{
+            margin: 0;
+            padding:0;
+            direction: ltr;
+            display: block;
+        }
+/*-------------===========header==============------------------*/
+      .header{
+        background-color: #ffffff;
+        height: 135px;
+        border-bottom: 1px solid grey;
+      }
+
+      .navbar-brand img{
+        width: 100%;
+        height: 100px;
+      }
+
+      .header{
+    height: 130px;
+    background-color: #8B0000;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}     
+.header .navbar ul{
+    margin-top:40px;
+    background-color:#8B0000;   
+    z-index: 990;
+    position: relative;
+}
+.header .navbar ul li a{
+    color:#fff;
+    padding: 5px 15px;
+    font-family: Droid Serif;
+    
+}
+.header .navbar ul li a:hover{
+    background: none;
+    color: #fff;
+}
+
+.icon{
+    background-color: #8B0000;
+    border: 1px solid grey;
+    border-radius: 1px solid grey;
+}
+
+.nav-bar div > ul > li.Nav > a{
+   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+ box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;
+}
+
+.nav-bar div > ul > li.Nav > a {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    background: url(../images/black_20_bg.png);
+}
+
+
+
+
+
+/*---------------=============slideshow------------===============*/
+
+.carousel-caption {
+  z-index: 10;
+
+    width: 505px;
+    height: 150px;
+    text-align: left;
+    
+
+}
+
+
+.item{
+
+    background-image: url("../images/bg1.jpg");
+    background-size: 1654px;
+    height: 500px;
+
+}
+
+.page-header, .container{
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.content{
+    position: relative;
+    bottom: 152px;
+    right: 230px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    font-weight:normal;
+    font-style:normal;
+    font-family:Droid Serif;
+    line-height:1.5em;
+}
+
+
+.carousel-inner > .item  > img
+{
+    position: relative;
+    left: 600px;
+    height: 460px;
+    width: 650px;
+    top: 13px;
+}
+
+.carousel-inner > .slide2 > img
+{
+    position: relative;
+    left: 600px;
+}
+
+.carousel-inner > .slide3 > img
+{
+    position: relative;
+    left: 600px;
+}
+
+.carousel-inner > .slide4 > img
+{
+    position: relative;
+    left: 600px;
+}
+/*---------------=============End Slide Show------------===============*/
+
+/*----------===============Footer-----------==============*/
+.nav-bar ul li {
+    text-decoration: none;
+
+}
+
+.nav-bar li {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    padding-left:5px;
+    color: #fff;
+    font-family: Droid Serif;
+}
+
+.footer-box p a:hover{
+    color: #8be5fc;
+}
+
+/*------=========End Footer====--------------*/

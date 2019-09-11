@@ -1,0 +1,8 @@
+create table contact
+(
+yourname char(30),
+youremail varchar(30),
+contact char(10),
+subject varchar(50),
+query varchar(50)
+);

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content="WordPress 4.5.8">
+		<title>Blood Bank</title>
+		<link rel="shortcut icon" href="images/icon.jpg">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/contact_Res.css">
+		<link rel="stylesheet" type="text/css" href="css/about.css">
+	</head>
+	<body>
+		
+		<style>
+			input[type=text], input[type=password],input[type=email] {
+					width: 60%;
+					padding: 12px 20px;
+					margin: 8px 0;
+					display: inline-block;
+					border: 1px solid #ccc;
+					box-sizing: border-box;
+				}
+			button {
+				background-color: #BD0710;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				width: 30%;
+			}
+		</style>
+		<div id="site-wrap">
+			<div class="header">
+				<header class="container" id="page-header">
+					<div class="row">
+						<nav class="nav-bar navbar">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>                        
+									</button>
+									<a class="navbar-brand" href="#"><img src="images/logo.jpg" alt="logo" /></a>
+								</div>
+								<div class="collapse navbar-collapse" id="myNavbar">
+									<ul class="nav navbar-nav navbar-right">
+										<li><a href="home.html">HOME</a></li>
+										<li><a href="About.html"> ABOUT US</a></li>
+										<li><a href="donars.html">DONARS LIST</a></li>
+										<li><a href="Contact.html">CONTACT US</a></li>
+										<li><a href="register.html">REGISTER</a></li>
+										<li class="Nav"><a href="Login.html">LOGIN</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</header>
+			</div>
+			<div class="featured-content">
+				<div class="substrate">
+					<img src="http://kennedyenglishacademy.com/wp-content/themes/kennedyenglish/images/bgs/site_bg.jpg" class="fullwidth" alt="">     </div>
+					<div class="row">
+						<div class="page-title">
+							<h1 class="nomargin"> Admin Account</h1>
+						</div>
+					</div>	
+			</div>
+			<div class="row rownav">
+				<div  class="col-md-12 col">
+					<div class="col-md-4 col3">
+						<ul class="nav nav-tabs tabs-left">
+							<li><a href="#account" data-toggle="tab">Create New Account</a></li>
+							<li class="active"><a href="#home" data-toggle="tab">Login</a></li>
+							<li><a href="#password" data-toggle="tab">Request New Password</a></li>
+						</ul><br>
+						<img src="images/side1.jpg" style="border:none;left:20px">
+					</div>
+					<div class="col-md-8">
+					<!-- Tab panes -->
+						<div class="tab-content">
+							<div class="tab-pane active" id="home"><h1>Admin Login</h1>		
+								<form action="login.php" method="post" style="float: right-side;right:100px;">
+									<div class="container">
+										<label><b>Username</b></label></br>
+										<input type="text" placeholder="Enter Username..." name="uname" required><br>
+                                        
+										<label><b>Password</b></label></br>
+										<input type="password" placeholder="Enter Password..." name="upass" required><br>
+        
+										<button type="submit">Login</button>
+    
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="account"><h1>Admin Register</h1>		
+								<form action="adminj.php" method="post" style="float: right-side;right:100px;">
+									<div class="container">
+										<label><b>Username</b></label></br>
+										<input type="text" placeholder="Enter Username..." name="uname" required><br>
+										
+                                        <label><b>E-mail Address</b></label></br>
+										<input type="email" placeholder="Enter valid Email Address..." name="uemail" required><br>
+							
+										<label><b>Name</b></label></br>
+										<input type="text" placeholder="Enter Your Full Name..." name="ufullname" required><br>
+										
+										<label><b>Blood Group</b></label></br>
+										<input type="text" placeholder="Enter Your blood group..." name="ubg" required><br>
+										
+										<label><b>Contact Number</b></label></br>
+										<input type="text" placeholder="Enter Your Mobile Number..." name="uno" required><br>
+										
+										<label><b>Address</b></label></br>
+										<input type="text" placeholder="Enter Your Address..." style="height:100px;" name="uadd" required><br>
+										
+										<label><b>Adhaar Number </b></label></br>
+										<input type="text" placeholder="Enter Your adhaar no..." name="uadhaar" required><br>
+										
+										<label><b>State</b></label></br>
+										<input type="text" placeholder="Enter Your State..." name="ustate" required><br>
+										
+										<label><b>Country</b></label></br>
+										<input type="text" placeholder="Enter Your Country..." name="ucountry" required><br>
+										
+										<label><b>Password</b></label></br>
+										<input type="password" placeholder="Enter Password..." name="upass" required><br>
+										
+                                        <label><b>Conform Password</b></label></br>
+										<input type="password" placeholder="Enter Password..." name="ucpass" required><br>
+										
+										<button type="submit">Create New Account</button>
+    
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane" id="password"><h1>Request New Password</h1>		
+								<form action="password.php" method="post" style="float: right-side;right:100px;">
+									<div class="container">
+										<label><b>Username</b></label></br>
+										<input type="text" placeholder="Enter Username or emailaddress..." name="uname" required><br>
+										
+										<label><b>Password</b></label></br>
+										<input type="password" placeholder="Enter New Password..." name="upass" required><br>
+										
+                                        <label><b>Conform Password</b></label></br>
+										<input type="password" placeholder="Enter New Password..." name="ucpass" required><br>
+                                        
+										<button type="submit">Change Password</button>
+    
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="footer-wrap" style="margin-top: 50px;">
+				<footer class="footer" style="background-color:#8B0000; height: 80px; >
+					<div class="footer-box">
+						<div class="container" id="footer" style="position: relative;top:25px; right: 280px; width: 550px;">
+							<div class="row">
+								<p style="color: #fff;font-size: 13px; font-family: Droid Serif; "> Blood Bank Management System  
+								<br> Developed by: <a href="" style="text-decoration: none; color: #5ea5d7;">CSE-A(43,48,56,198,64)</a></p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

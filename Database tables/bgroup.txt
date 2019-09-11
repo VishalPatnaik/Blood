@@ -1,0 +1,5 @@
+create table bgroup
+(
+bname varchar(80),
+bdes varchar(100)
+);

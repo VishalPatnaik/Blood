@@ -1,0 +1,6 @@
+create table bstock
+(
+bgroup varchar(20),
+bunit int,
+bsdes varchar(20)
+);
